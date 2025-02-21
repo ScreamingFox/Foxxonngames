@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>:3</title>
+    <meta name="keywords" content="personal, y2k, nostalgia, homepage">
+    <meta name="author" content="Arutemu64">
+    <meta name="description" content="reality is lemons and the internet's my lemonade">
+
+    <meta property="og:url" content="https://screamingfox.github.io/Foxxonngames/" />
+    <meta property="og:title" content=":3" />
+    <meta property="og:description" content="About me" />
+    <meta property="og:site_name" content="https://screamingfox.github.io/Foxxonngames/" />
+    <meta property="og:image" content="https://arutemu64.neocities.org/resources/bg.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+
+    <link rel="icon" href="https://raw.githubusercontent.com/ScreamingFox/Foxxonngames/refs/heads/main/gamefiles/iconloona.png" type="image/icon type">
+
+    <link rel="shortcut icon" href="https://github.com/ScreamingFox/Foxxonngames/blob/main/gamefiles/iconloona.png?raw=true">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#245DDA">
+    <meta name="theme-color" content="#245DDA">
+
+    <link rel="stylesheet" href="https://unpkg.com/xp.css">
+    <script src="resources/js/dummy.js?v=1.5.3"></script>
+
+    
+    
+
+    <style type=text/css>
+
+    html {
+        background-image: url("https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        overflow: hidden;
+        height: 100%
+    }
+
+    body {
+      height: 100%
+    }
+
+    .viewport {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .window {
+        max-width: 800px;
+        width: 90%;
+        max-height: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .window-body {
+        overflow: auto;
+        padding: 0 3px 5px;
+        box-sizing: border-box;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .title-bar-text {
+        font-size: calc(8px + 0.4vw);
+    }
+
+    .window-content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .current-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        flex-basis: 600px;
+        flex-grow: 10;
+        max-height: 330px;
+        overflow: auto;
+    }
+
+    @media only screen and (max-width: 650px) {
+        .current-page {
+        max-height: 750px;
+        }
+    }
+
+    .icon {
+        height: 1em;
+        padding-right: 5px;
+    }
+
+    .speaker {
+        position: absolute;
+        top: 100%;
+        left: 100%;
+        transform: translate(-100%, -100%);
+        max-height: 50px;
+        max-width: 50px;
+        cursor: pointer;
+        padding: 20px;
+    }
+
+            .url {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+        box-sizing: border-box;
+        flex-wrap: nowrap;
+    }
+
+    .url input {
+        width: 100%;
+    }
+
+    .url .icon {
+        padding: 0px 3px;
+    }
+    
+    </style>
+    <script>
+
+      function play_sound() {
+        var audio = document.getElementById("bg_sound");
+        if (audio.paused) {
+          audio.play();
+        } else {
+          audio.pause();
+        }
+      }
+
+      function toggleFullScreen() {
+        if (!document.fullscreenElement && // alternative standard method
+          !document.mozFullScreenElement && !document.webkitFullscreenElement) { // current working methods
+          if (document.documentElement.requestFullscreen) {
+            document.documentElement.requestFullscreen();
+          } else if (document.documentElement.mozRequestFullScreen) {
+            document.documentElement.mozRequestFullScreen();
+          } else if (document.documentElement.webkitRequestFullscreen) {
+            document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+          }
+        } else {
+          if (document.cancelFullScreen) {
+            document.cancelFullScreen();
+          } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+          } else if (document.webkitCancelFullScreen) {
+            document.webkitCancelFullScreen();
+          }
+        }
+      }
+
+      
+    </script>
+    <audio id="bg_sound" src="https://archive.org/download/WindowsXPInstallationMusic/Windows%20XP%20Installation%20Music.mp3" preload="none"></audio>
+  </head>
+  <body>
+    <div class="viewport">
+    <div class="window">
+      <div class="title-bar">
+        <div class="title-bar-text">
+          <img class="icon" src="https://github.com/ScreamingFox/Foxxonngames/blob/main/gamefiles/iconloona.png?raw=true"> ScreamingFox about-me
+        </div>
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize" onClick="toggleFullScreen()"></button>
+          <button aria-label="Close" onclick="window.history.back()"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <div class="url">
+          <img class="icon" src="https://screamingfox.github.io/Foxxonngames/"><input type="text" value="https://screamingfox.github.io/Foxxonngames/" disabled/>
+        </div>
+        <html>
+
+    <style>
+
+
+          .header {
+    height: 80px;
+    background-image: url("/resources/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    box-sizing: border-box;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 3px;
+    
+    flex-basis: auto;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .header h1,
+  h2 {
+    color: #FFFFFF;
+    margin: 0px;
+    
+    text-shadow: 1px 1px 5px black;
+  }
+
+    .logo {
+      width: 70px;
+      height: 70px;
+    }
+
+    .logo img {
+      height: 100%;
+    }
+
+    </style>
+
+    <div class="header">
+        
+        <div>
+            <h1 class="title" style="font-size: 24px">Screaming Fox</h1>
+            <h2 class="subtitle" style="font-size: 16px">"Where my money, bitch -jesse pinkman"</h2>
+
+        </div>
+    </div>
+
+</html>        
+        
+        
+
+        <div class="window-content">
+          <div class="current-page">
+            
+<html>
+
+<script>
+    function befriend() {
+        friend_btn = document.getElementById("friend");
+        friend_btn.innerHTML = "✔️ You're friends now! :)";
+        friend_btn.disabled = true;
+      }
+</script>
+
+<style>
+
+    details {
+        cursor: pointer;
+    }
+
+    #about-me p {
+        margin: 5px;
+    }
+
+    .left-column {
+        display: flex;
+        
+        flex-basis: 200px;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        justify-content: flex-start;
+    }
+
+    .right-column {
+        display: flex;
+        flex-basis: 300px;
+        flex-grow: 3;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .avatar {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .friend {
+        flex-basis: 100%;
+    }
+
+    .pm {
+        flex: 1;
+    }
+
+    .userbars {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .userbars img {
+        max-width: 100%;
+    }
+
+    .left-column p {
+            margin: 0px;
+            font-size: 10px;
+    }
+</style>
+
+
+<div class="left-column">
+    <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9ed12793-757f-41e6-bb9d-5f2960c31444/dggw648-548e1ca1-0b45-422d-9198-c977fa123b30.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzllZDEyNzkzLTc1N2YtNDFlNi1iYjlkLTVmMjk2MGMzMTQ0NFwvZGdndzY0OC01NDhlMWNhMS0wYjQ1LTQyMmQtOTE5OC1jOTc3ZmExMjNiMzAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.cL7jvSJoiRqNoVc4AdYbfVUXOr2YFp573Oip1vGw8O0" alt="profile picture" title="pfp!" width="150" height="150" id="pfp" style="	 margin-left: 40px; margin-right:20px; float:left;border-radius:10px; margin-bottom:50px;" alt="Arutemu64 avatar (明石さん from 四畳半神話大系)" class="avatar">
+    <img src="https://img1.picmix.com/output/stamp/normal/8/3/9/5/1745938_a93cb.gif" alt="'online now' blinking gif (fake)" style="width: 72px; height:16px">
+    <div class="contacts">
+      <button class="friend" id="friend" onClick="befriend()">➕ Add to friends</button>
+      <button class="pm" onclick="location.href=''" type="button">Bluesky</button>
+      <button class="pm" onclick="location.href='https://discord.gg/2ErXDFr9" type="button">Discord</button>
+    </div>
+  </div>
+  <div class="right-column">
+    <fieldset id="about-me">
+      <legend>About me</legend>
+      <p>Name: Fox  </p>
+      <p id="birthdate">Birthdate: Dec 30th 2007</p>
+      <p>Country: Mercia</p>
+      <p>Interests: Music, Technology, cars, horror.</p>
+      <p>Fuck that orange bastard in the white house</p>
+
+    </fieldset>
+    <fieldset>
+      <legend>Userbars</legend>
+      <div class="userbars">
+        <img src="https://images.melonland.net/?url=https%3A%2F%2Fi.imgur.com%2F1y0RfuU.png&w=1200&fit=inside&we&q=85&il&n=-1&default=1">
+        <img src="https://images.melonland.net/?url=https%3A%2F%2Fcobradile.neocities.org%2Fimages%2Fuserbars%2Flaserdiscenjoyer.png&w=1200&fit=inside&we&q=85&il&n=-1&default=1">
+        <img src="https://images.melonland.net/?url=https%3A%2F%2Fcobradile.neocities.org%2Fimages%2Fuserbars%2Fstillvhs.png&w=1200&fit=inside&we&q=85&il&n=-1&default=1">
+        <img src="http://i671.photobucket.com/albums/vv80/jonnypops718/userbars%20v2/display3php.png">
+        <img src="http://i671.photobucket.com/albums/vv80/jonnypops718/userbars%20v2/display33php.png">
+        <img src="http://i671.photobucket.com/albums/vv80/jonnypops718/userbars%20v2/nintendodsowner.gif">
+        <img src="http://i671.photobucket.com/albums/vv80/jonnypops718/Userbars%20v4/nvidia7.png">
+        <img src="http://i671.photobucket.com/albums/vv80/jonnypops718/Userbars%20v4/xp.gif">
+      </div>
+    </fieldset>
+  </div>
+
+</html>
+          </div>
+          <div class="sidebar" id="sidebar">
+              <html>
+    <style>
+        .sidebar {
+            flex-grow: 1;
+            
+        }
+
+        body {
+            margin: 0px;
+        }
+        .sidebar li {
+            margin: 6px 0 !important;
+        }
+        .icon {
+            height: 1em;
+            padding-right: 5px;
+        }
+    </style>
+    <div class="sidebar">
+    <fieldset>
+        <legend>Navigation</legend>
+        <ul class="tree-view">
+            <li><img class="icon" src="https://cdn-icons-png.flaticon.com/512/25/25694.png"><a href="https://screamingfox.github.io/Foxxonngames/">Home</a></li>
+            <li><img class="icon" src="https://st2.depositphotos.com/3228923/8744/i/450/depositphotos_87442154-stock-photo-love-crochet-on-white.jpg"><a href="https://screamingfox.github.io/CreativeCrochet/#about">Jackies crochet!:3</a></li>
+        </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Links</legend>
+            <ul class="tree-view">
+              <li><img class="icon" src="https://raw.githubusercontent.com/ScreamingFox/foxxonnofficalwebsite/refs/heads/main/FoxxonOfficalLogo.jpg"><a href="https://screamingfox.github.io/Foxxonngames/" target="_blank">Main site</a></li>
+              <li><img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBzR0jgL4IvO9wFZRXhGqCeQRngaJgiJnKyA&s"><a href="" target="_blank">Game site</a></li>
+              <li><img class="icon" src="https://static-00.iconduck.com/assets.00/spotify-icon-2048x2048-5gqpkwih.png"><a href="" target="_blank">Spodify</a></li>
+      
+          </fieldset>
+        </div>
+</html>
+          </div>
+        </div>
+        <html>
+    <style>
+        .footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+
+        .footer p {
+            margin: 0px;
+            font-size: 10px;
+        }
+
+        .banner-wrapper {
+            display: flex;
+            height: 70px;
+            width: 500px;
+            max-width: 100%;
+            max-height: 100%;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 5px;
+            box-sizing: border-box;
+        }
+
+        .banner-wrapper img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+
+    <div class="footer">
+        <div class="banner-wrapper">
+            <img id="banner" src="resources/banners/kitty.gif">
+        </div>
+        <script type="text/javascript">
+            var banner = document.getElementById("banner");
+            var images = [
+              ["https://foxxonn.neocities.org/3dspicm.jpg", "4000"],
+              ["https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9ed12793-757f-41e6-bb9d-5f2960c31444/dggw648-548e1ca1-0b45-422d-9198-c977fa123b30.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzllZDEyNzkzLTc1N2YtNDFlNi1iYjlkLTVmMjk2MGMzMTQ0NFwvZGdndzY0OC01NDhlMWNhMS0wYjQ1LTQyMmQtOTE5OC1jOTc3ZmExMjNiMzAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.cL7jvSJoiRqNoVc4AdYbfVUXOr2YFp573Oip1vGw8O0", "6000"],
+              ["kitty.gif", "6000"],
+              ["yotsuba.jpg", "5000"],
+              ["catz.gif", "5000"]
+            ];
+            var prev_pos = -1;
+
+            function update_banner() {
+              do {
+                pos = Math.floor(Math.random() * images.length);
+              } while (pos == prev_pos)
+              prev_pos = pos;
+              banner.src = 'resources/banners/' + images[pos][0];
+            }
+            update_banner();
+            setInterval(update_banner, images[pos][1]);
+          </script>
+         
+          <p>
+            <a href="changelog.html">v. 1.5.3</a> | built with <a href="https://www.11ty.dev/">11ty</a>, <a href="https://botoxparty.github.io/XP.css/">XP.css</a> 
+          </p>
+          
+          
+          
+          <p>everything related to windows xp (luna theme, background and sound) belongs to microsoft, no copyright infringement intended</p>
+        </div>
+
+</html>
+        
+        
+        
+
+      </div>
+    </div>
+    </div>
+  </body>
+  <footer>
+    <img class="speaker" src="/resources/speaker.png" onclick="play_sound()">
+  </footer>
+</html>
