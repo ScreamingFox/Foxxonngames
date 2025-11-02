@@ -1,183 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Foxxonn Games</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foxxonn Games</title>
+
+  <!-- Site icon -->
   <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/ScreamingFox/Foxxonngames/refs/heads/main/gamefiles/iconloona.png">
-<meta name="google-site-verification" content="9ehVUzuh5D5enxbHBTLR__-MriFMBHDf2ti4XM2V_c8" />
-  
 
-<meta name="keywords" content="unblocked games, free unblocked games, online games, school unblocked games, HTML5 games, web games, fun games online, free browser games, play at school, knockoff Minecraft, Minecraft clone, pixel builder, crafting game, survival block game, 2048, 2048 unblocked, puzzle games, math games, endless runner, arcade games, action games, shooting games, racing games, io games, strategy games, tower defense, idle games, clicker games, adventure games, sports games, platformer games, sandbox games, casual games, retro games, classic flash games, multiplayer games, single player games, HTML games, play games online, cool math games, no download games, free fun games, unblock games for school, best unblocked games, browser-based games, simple games, low graphics games, student games, classroom fun, online arcade, instant play games, game site, gaming website, web app games, play anywhere, free online arcade, cool unblocked games, unblocked gaming site, unblocked 2048, unblocked Minecraft, pixel games, school-friendly games, free fun unblocked, creative block games, crafting sandbox, unblocked web games, free HTML games, ultimate unblocked site, unblocked play, gaming for students, play 2048, play Minecraft clone, school game site, fun at school, play games free" />
+  <!-- SEO -->
+  <meta name="google-site-verification" content="9ehVUzuh5D5enxbHBTLR__-MriFMBHDf2ti4XM2V_c8">
+  <meta name="keywords" content="unblocked games, free unblocked games, online games, school unblocked games, HTML5 games, web games, fun games online, free browser games, play at school, knockoff Minecraft, Minecraft clone, pixel builder, crafting game, survival block game, 2048, 2048 unblocked, puzzle games, math games, endless runner, arcade games, action games, shooting games, racing games, io games, strategy games, tower defense, idle games, clicker games, adventure games, sports games, platformer games, sandbox games, casual games, retro games, classic flash games, multiplayer games, single player games, HTML games, play games online, cool math games, no download games, free fun games, unblock games for school, best unblocked games, browser-based games, simple games, low graphics games, student games, classroom fun, online arcade, instant play games, game site, gaming website, web app games, play anywhere, free online arcade, cool unblocked games, unblocked gaming site, unblocked 2048, unblocked Minecraft, pixel games, school-friendly games, free fun unblocked, creative block games, crafting sandbox, unblocked web games, free HTML games, ultimate unblocked site, unblocked play, gaming for students, play 2048, play Minecraft clone, school game site, fun at school, play games free">
 
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
-.w3-bar-block .w3-bar-item {padding:20px}
-</style>
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+  <style>
+    body, h1, h2, h3, h4, h5, h6 {font-family: "Karma", sans-serif;}
+    .w3-bar-block .w3-bar-item {padding:20px;}
+    .game-card img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+      margin: auto;
+      border-radius: 8px;
+    }
+    .game-card {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
 
-<!-- Sidebar (hidden by default) -->
-<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()"
-  class="w3-bar-item w3-button">Close Menu</a>
-  <a href="https://screamingfox.github.io/foxxonnofficalwebsite/#" onclick="w3_close()" class="w3-bar-item w3-button">FoxDenTechServcies website</a>
-  <a href="https://screamingfox.github.io/Foxxonngames/aboutme.html" onclick="w3_close()" class="w3-bar-item w3-button">About me</a>
-  
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+     style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button">Close Menu</a>
+  <a href="https://screamingfox.github.io/foxxonnofficalwebsite/#" onclick="w3_close()" class="w3-bar-item w3-button">FoxDenTechServcies Website</a>
+  <a href="https://screamingfox.github.io/Foxxonngames/aboutme.html" onclick="w3_close()" class="w3-bar-item w3-button">About Me</a>
 </nav>
 
-<!-- Top menu -->
+<!-- Top Bar -->
 <div class="w3-top">
-  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto;display:flex;align-items:center;justify-content:space-between;">
     <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
-
-    
-    
-    
-    
-    <h2>Unblocked Games</h2>
-
-    
-<hr>
-  <!-- First Photo Grid-->
-  <div class="w3-quarter" id="games">
-
-      
-      <h3>Tower Defense</h3>
-        
-      <img src="https://cdn-icons-png.flaticon.com/512/5930/5930147.png" alt="Oh fuck my image broke"/>
-
-      <a href="https://screamingfox.github.io/Foxxonngames/towerdefense.html" onclick="w3_close()" class="w3-bar-item w3-button">Go to game page</a>
-     
-
-      
-  </div>
-  <div class="w3-quarter" id="games">
-
-      
-      <h3>Gold coast Klodike</h3>
-      <img src="https://cdn-icons-png.flaticon.com/512/5930/5930147.png" alt="Oh fuck my image broke"/>
-      <a href="https://screamingfox.github.io/Foxxonngames/towerdefense.html" onclick="w3_close()" class="w3-bar-item w3-button">Go to game page</a>
-      
-      
-  </div>
-  <div class="w3-quarter" id="games">
-
-      
-      <h3>Christmas Match</h3>
-      <img src="https://cdn-icons-png.flaticon.com/512/5930/5930147.png" alt="Oh fuck my image broke"/>
-      <a href="" onclick="w3_close()" class="w3-bar-item w3-button">Go to game page</a>
-      
-      
-  </div>
-  <div class="w3-quarter" id="games">
-
-      
-      <h3>Hashiwokakero</h3>
-      <img src="https://cdn-icons-png.flaticon.com/512/5930/5930147.png" alt="Oh fuck my image broke"/>
-      <a href="https://screamingfox.github.io/Foxxonngames/Hashiwokakero.html" onclick="w3_close()" class="w3-bar-item w3-button">Go to game page</a>
-      
-      
-  </div>
-  <div class="w3-quarter" id="games">
-
-      
-      <h3>Minecraft</h3>
-      <img src="https://cdn-icons-png.flaticon.com/512/5930/5930147.png" alt="Oh fuck my image broke"/>
-      <a href="https://screamingfox.github.io/Foxxonngames/EaglercraftX_1.8_u49_Offline_Signed.html" onclick="w3_close()" class="w3-bar-item w3-button">Go to game page</a>
-      
-      
-  </div>
-  <div class="w3-quarter" id="games">
-
-      
-      <h3></h3>
-      
-      <a href="" onclick="w3_close()" class="w3-bar-item w3-button">Go to game page</a>
-      
-      
-  </div>
-  <div class="w3-quarter" id="games">
-
-      
-      <h3>2048</h3>
-      <img src="https://cdn-icons-png.flaticon.com/512/5930/5930147.png" alt="Oh fuck my image broke"/>
-      <a href="https://screamingfox.github.io/Foxxonngames/2048-master/index.html" onclick="w3_close()" class="w3-bar-item w3-button">Go to game page</a>
-      
-      
-  </div>
-
-  <div class="w3-quarter" id="games">
-
-      
-      <h3>JavaRacer</h3>
-      <img src="https://cdn-icons-png.flaticon.com/512/5930/5930147.png" alt="Oh fuck my image broke"/>
-      <a href="" onclick="w3_close()" class="w3-bar-item w3-button">Go to game page</a>
-      
-      
-  </div>
-
-
-    
- 
-  <!-- Second Photo Grid-->
-  <!--
-  <div class="w3-row-padding w3-padding-16 w3-center">
-    <div class="w3-quarter">
-      <img src="/w3images/popsicle.jpg" alt="Popsicle" style="width:100%">
-      <h3>All I Need Is a Popsicle</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <img src="/w3images/salmon.jpg" alt="Salmon" style="width:100%">
-      <h3>Salmon For Your Skin</h3>
-      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <img src="/w3images/sandwich.jpg" alt="Sandwich" style="width:100%">
-      <h3>The Perfect Sandwich, A Real Classic</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div class="w3-quarter">
-      <img src="/w3images/croissant.jpg" alt="Croissant" style="width:100%">
-      <h3>Le French</h3>
-      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-  </div>
-    
-    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Foxxonn</a><img src="https://raw.githubusercontent.com/ScreamingFox/foxxonnofficalwebsite/refs/heads/main/FoxxonOfficalLogo.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="40" height="40">
-    <p>Hello website users! Our website is curently under constrution for new games and better layout if links are broken please be painent they will be back up asap!</p>  
+    <h2 style="margin:0 auto;">Foxxonn Unblocked Games</h2>
   </div>
 </div>
-  
-<!-- !PAGE CONTENT! -->
+
+<!-- Main Content -->
 <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <div class="w3-row-padding w3-center">
+
+    <!-- Example game cards -->
+    <div class="w3-quarter game-card">
+      <h3>Tower Defense</h3>
+      <img src="https://example.com/myphoto.jpg" alt="Tower Defense">
+      <a href="https://screamingfox.github.io/Foxxonngames/towerdefense.html" class="w3-button w3-green w3-margin-top">Play Game</a>
+    </div>
+
+    <div class="w3-quarter game-card">
+      <h3>Gold Coast Klondike</h3>
+      <img src="https://example.com/myphoto.jpg" alt="Gold Coast Klondike">
+      <a href="https://screamingfox.github.io/Foxxonngames/towerdefense.html" class="w3-button w3-green w3-margin-top">Play Game</a>
+    </div>
+
+    <div class="w3-quarter game-card">
+      <h3>Christmas Match</h3>
+      <img src="https://example.com/myphoto.jpg" alt="Christmas Match">
+      <a href="#" class="w3-button w3-green w3-margin-top">Play Game</a>
+    </div>
+
+    <div class="w3-quarter game-card">
+      <h3>Hashiwokakero</h3>
+      <img src="https://example.com/myphoto.jpg" alt="Hashiwokakero">
+      <a href="https://screamingfox.github.io/Foxxonngames/Hashiwokakero.html" class="w3-button w3-green w3-margin-top">Play Game</a>
+    </div>
+
+    <div class="w3-quarter game-card">
+      <h3>Minecraft Clone</h3>
+      <img src="https://example.com/myphoto.jpg" alt="Minecraft Clone">
+      <a href="https://screamingfox.github.io/Foxxonngames/EaglercraftX_1.8_u49_Offline_Signed.html" class="w3-button w3-green w3-margin-top">Play Game</a>
+    </div>
+
+    <div class="w3-quarter game-card">
+      <h3>2048</h3>
+      <img src="https://example.com/myphoto.jpg" alt="2048 Game">
+      <a href="https://screamingfox.github.io/Foxxonngames/2048-master/index.html" class="w3-button w3-green w3-margin-top">Play Game</a>
+    </div>
+
+    <div class="w3-quarter game-card">
+      <h3>JavaRacer</h3>
+      <img src="https://example.com/myphoto.jpg" alt="JavaRacer">
+      <a href="#" class="w3-button w3-green w3-margin-top">Play Game</a>
+    </div>
+
+  </div>
+
+  <hr>
+  <h3>Socials & Info</h3>
+  <iframe src="https://discordapp.com/widget?id=1250151507572293682&theme=dark"
+          width="250" height="250" allowtransparency="true" frameborder="0"
+          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+  </iframe>
+
+</div>
+
 <script>
-function myFunction() {
-  alert("Hello students! Games are super fun but you know what else is fun? School! Thats why if your at school I suggest you should problay get off this website and get on Google classroom. If all you work is done, feel free to enjoy this game site. If your in class I suggest YOU should lesson.");
-}
-</script>
-
-
-
-<hr>
-<h3>Scoials and info</h3>
-<iframe src="https://discordapp.com/widget?id=1250151507572293682&theme=dark" width="250" height="250" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-<script>
-  
-// Script to open and close sidebar offical discord above.
 function w3_open() {
   document.getElementById("mySidebar").style.display = "block";
 }
- 
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
 </script>
 
 </body>
+</html>
+
 </html>
 
